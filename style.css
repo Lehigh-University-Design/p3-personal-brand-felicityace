@@ -20,6 +20,7 @@ h2{
 .topnav a:hover {
     background-color: #f4f4f4;
     color: rgb(6, 15, 152);
+    font-weight: 900;
   }
 
   .topnav a.active {
@@ -52,7 +53,7 @@ h2{
 
   .p1 {
     padding-left: 0%;
-    padding-right: 67%;
+    padding-right: 69%;
     text-align: right;
     padding-top: 3%;
     font-family: 'Jost';font-size: 16px;
@@ -79,6 +80,7 @@ h2{
   }
 
   .annahead{
+    display:flex;
     padding-top: 1%;
   }
 
@@ -99,9 +101,28 @@ h2{
 
 hr {
   justify-content:right;
-  width: 90%;
+  width: 100%;
 }
 
+.p7{
+  font-family: 'Jost';font-size: 20px;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.p8{
+  padding-top: 2%;
+  font-family:Georgia, 'Times New Roman', Times, serif;font-size: 17px;
+  text-align: center;
+}
+/* media query */
+@media only screen and (max-width: 768px){
+
+  .annahead{
+    flex-direction: column;
+  }
+
+}
 
 
 
