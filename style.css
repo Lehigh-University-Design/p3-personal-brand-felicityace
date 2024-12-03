@@ -13,7 +13,10 @@
     text-decoration: none;
     font-size: 17px
 }
-
+h2{
+  color: blue;
+  font-family: 'Jost';font-size: 12px;
+}
 .topnav a:hover {
     background-color: #f4f4f4;
     color: rgb(6, 15, 152);
@@ -76,7 +79,7 @@
   }
 
   .annahead{
-    padding-top: 7%;
+    padding-top: 1%;
   }
 
   .p5{
