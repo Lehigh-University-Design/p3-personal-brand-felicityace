@@ -48,12 +48,13 @@
   }
 
   .p1 {
-    padding-left: 7%;
+    padding-left: 0%;
+    padding-right: 67%;
+    text-align: right;
     padding-top: 3%;
     font-family: 'Jost';font-size: 16px;
     padding-bottom: 5%;
   }
-
   .p2{
     padding-top: 15%;
     font-family: 'Jost';font-size: 120px;
