@@ -53,14 +53,14 @@ h2{
 
   .p1 {
     padding-left: 0%;
-    padding-right: 69%;
+    padding-right: 69.3%;
     text-align: right;
     padding-top: 3%;
     font-family: 'Jost';font-size: 16px;
     padding-bottom: 5%;
   }
   .p2{
-    padding-top: 15%;
+    padding-top: 2%;
     font-family: 'Jost';font-size: 120px;
     color:rgb(6, 15, 152);
   }
@@ -81,7 +81,7 @@ h2{
 
   .annahead{
     display:flex;
-    padding-top: 1%;
+    padding-top: 3%;
   }
 
   .p5{
@@ -109,7 +109,24 @@ hr {
   text-align: center;
   padding-top: 15%;
 }
+html {
+  scroll-behavior: smooth;
+}
 
+ 
+.fade-in-image {
+  opacity: 20%;
+}
+
+.fade-in-image:hover {
+  opacity: 100%;
+  transition: opacity 1s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 .p8{
   padding-top: 2%;
   font-family:Georgia, 'Times New Roman', Times, serif;font-size: 17px;
